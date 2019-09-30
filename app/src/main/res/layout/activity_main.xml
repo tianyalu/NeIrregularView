@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sty.ne.irregularview.MainActivity">
+    <com.sty.ne.irregularview.IrregularDrawView
+        android:id="@+id/idv_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"/>
+
+    <com.sty.ne.irregularview.IrregularView
+        android:id="@+id/irv_2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:background="@drawable/chrome_2"/>
+    <com.sty.ne.irregularview.IrregularView
+        android:id="@+id/irv_3"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:background="@drawable/chrome_3"/>
+    <com.sty.ne.irregularview.IrregularView
+        android:id="@+id/irv_4"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:background="@drawable/chrome_4"/>
+    <com.sty.ne.irregularview.IrregularView
+        android:id="@+id/irv_1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:background="@drawable/chrome_1"/>
+
+    <com.sty.ne.irregularview.IrregularMenuView
+        android:id="@+id/imv_1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="bottom|center_horizontal"/>
+</FrameLayout>
