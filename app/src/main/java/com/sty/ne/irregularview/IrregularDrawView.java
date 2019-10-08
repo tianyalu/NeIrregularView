@@ -55,7 +55,7 @@ public class IrregularDrawView extends View {
         cx = width / 2;
         cy = height / 2;
         bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
-        // 创建新的画布来解决图片的问题
+        // 创建新的画布来解决图片的问题（点击事件）
         canvasTemp = new Canvas(bitmap);
     }
 
@@ -105,7 +105,6 @@ public class IrregularDrawView extends View {
     }
 
     // 处理事件传递
-
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         int action = event.getAction();
