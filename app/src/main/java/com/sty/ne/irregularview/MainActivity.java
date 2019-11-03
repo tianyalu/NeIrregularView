@@ -1,5 +1,6 @@
 package com.sty.ne.irregularview;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -23,6 +24,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.irv_3).setOnClickListener(this);
         findViewById(R.id.irv_4).setOnClickListener(this);
         findViewById(R.id.imv_1).setOnClickListener(this);
+
+        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, TouchAndMoveActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

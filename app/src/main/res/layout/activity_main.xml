@@ -5,6 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.sty.ne.irregularview.MainActivity">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="进入点击移动小球页面"/>
+
     <com.sty.ne.irregularview.IrregularDrawView
         android:id="@+id/idv_1"
         android:layout_width="100dp"
